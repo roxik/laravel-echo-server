@@ -1,9 +1,9 @@
-import { HttpSubscriber, RedisSubscriber, Subscriber } from './subscribers';
+zimport { HttpSubscriber, RedisSubscriber, Subscriber } from './subscribers';
 import { Channel } from './channels';
 import { Server } from './server';
 import { HttpApi } from './api';
 import { Log } from './log';
-import * as fs from 'fs';
+const fs = require('graceful-fs');
 const packageFile = require('../package.json');
 
 /**

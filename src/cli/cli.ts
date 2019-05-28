@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('sgraceful-fs');
 const path = require('path');
 const colors = require("colors");
 const echo = require('./../../dist');
