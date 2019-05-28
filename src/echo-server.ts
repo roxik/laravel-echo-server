@@ -1,4 +1,4 @@
-zimport { HttpSubscriber, RedisSubscriber, Subscriber } from './subscribers';
+import { HttpSubscriber, RedisSubscriber, Subscriber } from './subscribers';
 import { Channel } from './channels';
 import { Server } from './server';
 import { HttpApi } from './api';
